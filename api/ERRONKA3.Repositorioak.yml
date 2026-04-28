@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: ERRONKA3.Repositorioak
+  commentId: N:ERRONKA3.Repositorioak
+  id: ERRONKA3.Repositorioak
+  children:
+  - ERRONKA3.Repositorioak.ErabiltzaileaRepositorioa
+  - ERRONKA3.Repositorioak.GailuaRepositorioa
+  langs:
+  - csharp
+  - vb
+  name: ERRONKA3.Repositorioak
+  nameWithType: ERRONKA3.Repositorioak
+  fullName: ERRONKA3.Repositorioak
+  type: Namespace
+  assemblies:
+  - ERRONKA3
+references:
+- uid: ERRONKA3.Repositorioak.ErabiltzaileaRepositorioa
+  commentId: T:ERRONKA3.Repositorioak.ErabiltzaileaRepositorioa
+  href: ERRONKA3.Repositorioak.ErabiltzaileaRepositorioa.html
+  name: ErabiltzaileaRepositorioa
+  nameWithType: ErabiltzaileaRepositorioa
+  fullName: ERRONKA3.Repositorioak.ErabiltzaileaRepositorioa
+- uid: ERRONKA3.Repositorioak.GailuaRepositorioa
+  commentId: T:ERRONKA3.Repositorioak.GailuaRepositorioa
+  href: ERRONKA3.Repositorioak.GailuaRepositorioa.html
+  name: GailuaRepositorioa
+  nameWithType: GailuaRepositorioa
+  fullName: ERRONKA3.Repositorioak.GailuaRepositorioa

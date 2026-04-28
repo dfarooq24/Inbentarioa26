@@ -1,0 +1,7 @@
+C:\Users\andog\Downloads\ADB-Erronka3_1\ADB-Erronka3\bin\Release\net10.0-windows\win-x64\publish\ERRONKA3.pdb
+C:\Users\andog\Downloads\ADB-Erronka3_1\ADB-Erronka3\bin\Release\net10.0-windows\win-x64\publish\comerr64.dll
+C:\Users\andog\Downloads\ADB-Erronka3_1\ADB-Erronka3\bin\Release\net10.0-windows\win-x64\publish\gssapi64.dll
+C:\Users\andog\Downloads\ADB-Erronka3_1\ADB-Erronka3\bin\Release\net10.0-windows\win-x64\publish\k5sprt64.dll
+C:\Users\andog\Downloads\ADB-Erronka3_1\ADB-Erronka3\bin\Release\net10.0-windows\win-x64\publish\krb5_64.dll
+C:\Users\andog\Downloads\ADB-Erronka3_1\ADB-Erronka3\bin\Release\net10.0-windows\win-x64\publish\krbcc64.dll
+C:\Users\andog\Downloads\ADB-Erronka3_1\ADB-Erronka3\bin\Release\net10.0-windows\win-x64\publish\ERRONKA3.exe
