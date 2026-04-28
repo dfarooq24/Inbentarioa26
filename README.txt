@@ -1,84 +1,65 @@
-﻿📦 Inbentarioa26 — ADB Taldea
-ERRONKA 3 
-________________
-📝 Proiektuaren deskribapena
-Izarraitz LHIIko gailu digitalen inbentarioa kudeatzeko aplikazio bat da. Ikastetxeko ordenagailuak eta inprimagailuak erregistratu, editatu eta ezabatzeko aukera ematen du. Erabiltzaile sistema bat du, eta rola arabera baimen ezberdinak ditu bakoitzak.
+# 📦 Inbentarioa26 — ADB Taldea
 
+### ERRONKA 3 · 1PAAG3 · Izarraitz LHII · 2025-2026
 
-________________
+---
 
+## 📝 Proiektuaren deskribapena
 
-🔗 Estekak
+Izarraitz LHIIko gailu digitalen inbentarioa kudeatzeko aplikazio bat da.
+Ikastetxeko ordenagailuak eta inprimagailuak erregistratu, editatu eta ezabatzeko aukera ematen du.
+Erabiltzaile sistema bat du, eta rola arabera baimen ezberdinak ditu bakoitzak.
 
+---
 
-	Lotura
-	🌐 Web Orrialdea
-	Web orrialdea ikusi
-	📚 Dokumentazio Teknikoa
-	DocFX dokumentazioa
-	📦 Instaladorea
-	ERRONKA3.exe deskargatu
-	
+## 🔗 Estekak
 
-________________
+🌐 Web Orrialdea:
+https://anunez25-spec.github.io/Inbentarioa26/Markatze/index.html
 
+📚 Dokumentazio Teknikoa (DocFX):
+https://anunez25-spec.github.io/Inbentarioa26/Downloads/ADB-Erronka3_1/ADB-Erronka3/PROGRAMA/Dokumentazioa/index.html
 
-📁 Repositorioaren egitura
-Inbentarioa26/
+📦 Instaladorea (ERRONKA3.exe):
+https://github.com/anunez25-spec/Inbentarioa26/releases/latest
 
+---
 
-├── Downloads/ADB-Erronka3_1/ADB-Erronka3/PROGRAMA/
+## 📁 Repositorioaren egitura
 
+PROGRAMA/Kodea — C# kodea (Visual Studio proiektua)
+PROGRAMA/Dokumentazioa — DocFX dokumentazio teknikoa
+PROGRAMA/DatuBasea — MySQL script-a
+Markatze — Web orrialdea
 
-│   ├── Kodea/          ← C# kodea (Visual Studio proiektua)
+---
 
+## ⚙️ Instalazioa
 
-│   ├── Dokumentazioa/  ← DocFX dokumentazio teknikoa
+1. ERRONKA3.exe deskargatu goiko estekaren bidez
+2. Fitxategian dobla-klik egin
+3. Ikastetxeko sare berera konektatu (ezinbestekoa)
 
+---
 
-│   └── DatuBasea/      ← MySQL script-a
+## 👥 Erabiltzailea
 
+Izena: admin
+Pasahitza: 12345
+Rola: admin
 
-└── Markatze/           ← Web orrialdea
+---
 
+## 🛠️ Teknologia
 
-________________
+- Lengoaia: C# .NET 10
+- Interfazea: Windows Forms
+- Datu-basea: MySQL
+- Arkitektura: POO — 3 geruza
+- Dokumentazioa: DocFX
 
+---
 
-⚙️ Instalazioa
-1. ERRONKA3.exe deskargatu hemendik
-2. Fitxategian doble-klik egin
-3. Ikastetxeko sare berera konektatu
+## 👨‍💻 Garatzaileak
 
-
-⚠️ Aplikazioak datu-base zentralizatu batera konektatzen da. Funtzionatzeko ikastetxeko sare berera konektatuta egon behar duzu.
-
-
-________________
-
-
-👥 Erabiltzailea
-Izena
-	Pasahitza
-	Rola
-	admin
-	12345
-	admin
-	
-
-________________
-
-
-🛠️ Teknologia
-* Lengoaia: C# (.NET 10)
-* Interfazea: Windows Forms
-* Datu-basea: MySQL
-* Arkitektura: POO — 3 geruza (Modeloak, Repositorioak, Formularioak)
-* Dokumentazioa: DocFX
-
-
-________________
-
-
-👨‍💻 Garatzaileak
 ADB Taldea
