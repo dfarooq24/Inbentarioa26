@@ -36,7 +36,7 @@ Markatze — Web orrialdea
 
 ## ⚙️ Instalazioa
 
-1. ERRONKA3.exe deskargatu goiko estekaren bidez
+1. ERRONKA3.exe deskargatzeko ( https://github.com/anunez25-spec/Inbentarioa26/releases/tag/APLIKAZIOA )
 2. Fitxategian dobla-klik egin
 3. Ikastetxeko sare berera konektatu (ezinbestekoa)
 
