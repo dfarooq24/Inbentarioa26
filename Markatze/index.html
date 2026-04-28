@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="eu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gailuen Inbentarioa - ADB</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { padding-top: 76px; background-color: #fcfdfe; font-family: 'Segoe UI', system-ui, sans-serif; }
+        .eremu-ezkutua { display: none; }
+        .navbar { background-color: rgba(255, 255, 255, 0.95) !important; backdrop-filter: blur(10px); }
+        .navbar-brand { font-weight: 800; font-size: 1.5rem; color: #4e54c8 !important; }
+        .nav-link { font-weight: 500; color: #555 !important; transition: 0.3s; }
+        .nav-link:hover { color: #8f94fb !important; }
+        .text-gradient {
+            background: linear-gradient(to right, #4e54c8, #8f94fb);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 800;
+        }
+        .btn-grad {
+            background-image: linear-gradient(to right, #4e54c8 0%, #8f94fb 51%, #4e54c8 100%);
+            padding: 10px 25px;
+            text-align: center;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white !important;            
+            box-shadow: 0 4px 15px rgba(78, 84, 200, 0.4);
+            border-radius: 30px;
+            border: none;
+            font-weight: bold;
+        }
+        .btn-grad:hover { background-position: right center; text-decoration: none; transform: scale(1.05); }
+        .card {
+            border: none;
+            border-radius: 20px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+            transition: all 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(78, 84, 200, 0.15);
+        }
+        .form-control { border-radius: 10px; padding: 12px; border: 1px solid #e0e0e0; }
+        .form-control:focus { box-shadow: 0 0 0 0.25rem rgba(143, 148, 251, 0.25); border-color: #8f94fb; }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="descarga 2.png" alt="ADB Logo" style="height: 40px; margin-right: 12px;">
+                <span class="text-gradient">ADB Inbentarioa</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="#hasiera">Hasiera</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#zerbitzuak">Zerbitzuak</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#bideoa">Bideoa</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#kontaktua">Kontaktua</a></li>
+                </ul>
+                <button class="btn btn-grad" data-bs-toggle="modal" data-bs-target="#loginModala">Sartu (Login-a)</button>
+            </div>
+        </div>
+    </nav>
+
+    <header id="hasiera" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators mb-4">
+            <button type="button" data-bs-target="#hasiera" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#hasiera" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#hasiera" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner rounded-bottom-5 overflow-hidden shadow">
+            <div class="carousel-item active" data-bs-interval="4000">
+                <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1200&q=80" class="d-block w-100" alt="Ikastetxea" style="height: 450px; object-fit: cover; filter: brightness(0.6);">
+                <div class="carousel-caption d-none d-md-block pb-5">
+                    <h1 class="fw-bold display-4 text-white">Kudeaketa Jasangarria</h1>
+                    <p class="fs-4 text-light">Zure ikastetxeko IKT baliabideen kontrol osoa.</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+                <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80" class="d-block w-100" alt="Zerbitzariak" style="height: 450px; object-fit: cover; filter: brightness(0.6);">
+                <div class="carousel-caption d-none d-md-block pb-5">
+                    <h1 class="fw-bold display-4 text-white">Inbentario Eraginkorra</h1>
+                    <p class="fs-4 text-light">Denbora errealean eguneratutako datuak.</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+                <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1200&q=80" class="d-block w-100" alt="E-Waste" style="height: 450px; object-fit: cover; filter: brightness(0.6);">
+                <div class="carousel-caption d-none d-md-block pb-5">
+                    <h1 class="fw-bold display-4 text-white">E-Waste Murrizketa</h1>
+                    <p class="fs-4 text-light">Gure ingurumena babesteko teknologia arduratsua.</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container my-5">
+        <section id="zerbitzuak" class="text-center mb-5 mt-5">
+            <h2 class="text-gradient mb-5">Gure Zerbitzuak</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 p-4">
+                        <div class="card-body">
+                            <div class="mb-3 fs-1">💻</div>
+                            <h5 class="card-title fw-bold" style="color: #4e54c8;">Inbentario Kontrola</h5>
+                            <p class="card-text text-muted">Gailuen kudeaketa zentralizatua eta erraza.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 p-4">
+                        <div class="card-body">
+                            <div class="mb-3 fs-1">🌡️</div>
+                            <h5 class="card-title fw-bold" style="color: #4e54c8;">IoT Sentsoreak</h5>
+                            <p class="card-text text-muted">Baldintza klimatikoen monitorizazioa.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 p-4">
+                        <div class="card-body">
+                            <div class="mb-3 fs-1">♻️</div>
+                            <h5 class="card-title fw-bold" style="color: #4e54c8;">Jasangarritasuna</h5>
+                            <p class="card-text text-muted">Material teknologikoaren berrerabilpena.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="bideoa" class="bg-white p-5 rounded-4 shadow-sm mb-5">
+            <h2 class="text-gradient text-center mb-4">Aplikazioaren Tutoriala</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="ratio ratio-16x9 rounded-4 overflow-hidden shadow-sm">
+                        <video controls class="w-100">
+                            <source src="zuen_bideoa_ingelesez.mp4" type="video/mp4">
+                            Zure nabigatzaileak ez du bideoa onartzen.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="eremu-pribatua" class="eremu-ezkutua bg-white p-5 rounded-4 shadow-sm mb-5" style="border-left: 6px solid #8f94fb;">
+            <h2 class="text-gradient pb-2">🔓 Erabiltzaile Erregistratuen Eremua</h2>
+            <div class="row mt-4 justify-content-center">
+                <div class="col-md-8 mb-3">
+                    <div class="list-group shadow-sm" style="border-radius: 15px; overflow: hidden;">
+                        <a href="ADB-Erronka3_1 .zip" class="list-group-item list-group-item-action py-3 fw-bold" style="background-color: #f0f1ff; color: #4e54c8;">⬇️ Deskargatu Inbentario Proiektua (.zip)</a>
+                        <a href="Instalazio Gida_ ADB Inbentarioa.pdf" target="_blank" class="list-group-item list-group-item-action py-3">📄 Instalazio Gida (PDF)</a>
+                        <a href="Dokumentazioa.zip" class="list-group-item list-group-item-action py-3">⚙️ Dokumentazio Teknikoa</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="kontaktua" class="row bg-white p-5 rounded-4 shadow-sm mt-5">
+            <h2 class="text-gradient text-center mb-5">Hitz Egin Dezagun!</h2>
+            <div class="col-md-6 mb-4">
+                <h5 class="fw-bold text-dark mb-3">Non gaude?</h5>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2902.753863486!2d-1.9701041!3d43.3193439!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd51a5417f735163%3A0x95c3732c589b21f3!2sNazaret%20Zentroa!5e0!3m2!1seu!2ses!4v1700000000000"
+                    width="100%" height="320" style="border:0; border-radius: 15px;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+            <div class="col-md-6">
+                <h5 class="fw-bold text-dark mb-3">Bidaliguzu mezu bat</h5>
+                <form id="kontaktuFormularioa">
+                    <div class="mb-3">
+                        <label class="form-label">Zure Izena:</label>
+                        <input type="text" name="Izena" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Zure Posta Elektronikoa:</label>
+                        <input type="email" name="Email" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Mezua:</label>
+                        <textarea name="Mezua" class="form-control" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" id="bidaliBotoia" class="btn btn-grad w-100">Bidali Mezua 🚀</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="text-center py-4 mt-5" style="background-color: #f8f9fa; color: #aaa;">
+        <p class="mb-0 fw-bold">© 2026 ADB Inbentarioa - Erronka Proiektua</p>
+    </footer>
+
+    <div class="modal fade" id="loginModala" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content" style="border-radius: 20px; border: none;">
+                <div class="modal-header border-0 text-center pb-0 pt-4">
+                    <h4 class="modal-title w-100 text-gradient fw-bold">Ongi Etorri!</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Itxi"></button>
+                </div>
+                <div class="modal-body p-4">
+                    <div class="mb-3">
+                        <input type="text" class="form-control py-2" id="erabiltzailea" placeholder="Erabiltzailea">
+                    </div>
+                    <div class="mb-4">
+                        <input type="password" class="form-control py-2" id="pasahitza" placeholder="Pasahitza">
+                    </div>
+                    <button type="button" class="btn btn-grad w-100 py-2 fs-5" onclick="loginEgin()" data-bs-dismiss="modal">Sartu</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // FORMULARIOAREN BIDALKETA (Formspree bidez)
+        var form = document.getElementById("kontaktuFormularioa");
+        var botoia = document.getElementById("bidaliBotoia");
+
+        async function handleSubmit(event) {
+            event.preventDefault();
+            botoia.disabled = true;
+            botoia.innerText = "Bidaltzen...";
+            var data = new FormData(event.target);
+            
+            fetch("https://formspree.io/f/meevlpvw", {
+                method: "POST",
+                body: data,
+                headers: { 'Accept': 'application/json' }
+            }).then(response => {
+                if (response.ok) {
+                    alert("✅ Eskerrik asko! Zure mezua ondo bidali da.");
+                    form.reset();
+                } else {
+                    alert("❌ Errore bat gertatu da.");
+                }
+            }).catch(error => {
+                alert("❌ Errore teknikoa gertatu da.");
+            }).finally(() => {
+                botoia.disabled = false;
+                botoia.innerText = "Bidali Mezua 🚀";
+            });
+        }
+
+        form.addEventListener("submit", handleSubmit);
+
+        // Login funtzioa
+        function loginEgin() {
+            document.getElementById('eremu-pribatua').style.display = 'block';
+            document.getElementById('eremu-pribatua').scrollIntoView({ behavior: 'smooth' });
+            alert("Sarrera egokia! Orain deskargak ikus ditzakezu.");
+        }
+    </script>
+</body>
+</html>
