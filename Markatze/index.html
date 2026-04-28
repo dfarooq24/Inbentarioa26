@@ -154,8 +154,6 @@
                         <a href="ERRONKA3_NEW.zip" class="list-group-item list-group-item-action py-3 fw-bold" style="background-color: #f0f1ff; color: #4e54c8;">⬇️ Deskargatu Inbentario Proiektua (.zip)</a>
                         <a href="Instalazio Gida_ ADB Inbentarioa.pdf" target="_blank" class="list-group-item list-group-item-action py-3">📄 Instalazio Gida (PDF)</a>
                         <a href="Dokumentazioa.zip" class="list-group-item list-group-item-action py-3">⚙️ Dokumentazio Teknikoa</a>
-                    </div>
-                </div>
             </div>
         </section>
 
@@ -247,11 +245,28 @@
         form.addEventListener("submit", handleSubmit);
 
         // Login funtzioa
-        function loginEgin() {
-            document.getElementById('eremu-pribatua').style.display = 'block';
-            document.getElementById('eremu-pribatua').scrollIntoView({ behavior: 'smooth' });
-            alert("Sarrera egokia! Orain deskargak ikus ditzakezu.");
-        }
+        // Login funtzioa zuzenduta
+function loginEgin() {
+    // Balioak hartu
+    var user = document.getElementById('erabiltzailea').value;
+    var pass = document.getElementById('pasahitza').value;
+
+    // Balidazioa: Erabiltzailea eta pasahitza egiaztatu
+    // Hemen nahi dituzun datuak jarri ditzakezu (adibidez: admin / 1234)
+    if (user === "admin" && pass === "1234") {
+        document.getElementById('eremu-pribatua').style.display = 'block';
+        document.getElementById('eremu-pribatua').scrollIntoView({ behavior: 'smooth' });
+        alert("✅ Sarrera egokia! Ongi etorri.");
+        
+        // Modal-a ixteko Bootstrap erabiliz (ziurtatzeko itxi egiten dela)
+        var modalElement = document.getElementById('loginModala');
+        var modalInstance = bootstrap.Modal.getInstance(modalElement);
+        modalInstance.hide();
+    } else {
+        alert("❌ Errorea: Erabiltzailea edo pasahitza okerrak dira.");
+        // Ez dugu modal-a ixten datuak zuzendu ditzan
+    }
+}
     </script>
 </body>
 </html>
