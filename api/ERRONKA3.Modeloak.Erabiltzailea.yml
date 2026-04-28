@@ -19,9 +19,9 @@ items:
   type: Class
   source:
     remote:
-      path: Downloads/ADB-Erronka3_1/ADB-Erronka3/Modeloak/Erabiltzailea.cs
+      path: Modeloak/Erabiltzailea.cs
       branch: main
-      repo: https://github.com/anunez25-spec/GHOSTDOCANDONI.git
+      repo: https://github.com/anunez25-spec/Inbentarioa26.git
     id: Erabiltzailea
     path: Modeloak/Erabiltzailea.cs
     startLine: 7
@@ -61,9 +61,9 @@ items:
   type: Property
   source:
     remote:
-      path: Downloads/ADB-Erronka3_1/ADB-Erronka3/Modeloak/Erabiltzailea.cs
+      path: Modeloak/Erabiltzailea.cs
       branch: main
-      repo: https://github.com/anunez25-spec/GHOSTDOCANDONI.git
+      repo: https://github.com/anunez25-spec/Inbentarioa26.git
     id: IdErab
     path: Modeloak/Erabiltzailea.cs
     startLine: 10
@@ -92,9 +92,9 @@ items:
   type: Property
   source:
     remote:
-      path: Downloads/ADB-Erronka3_1/ADB-Erronka3/Modeloak/Erabiltzailea.cs
+      path: Modeloak/Erabiltzailea.cs
       branch: main
-      repo: https://github.com/anunez25-spec/GHOSTDOCANDONI.git
+      repo: https://github.com/anunez25-spec/Inbentarioa26.git
     id: Izena
     path: Modeloak/Erabiltzailea.cs
     startLine: 13
@@ -123,9 +123,9 @@ items:
   type: Property
   source:
     remote:
-      path: Downloads/ADB-Erronka3_1/ADB-Erronka3/Modeloak/Erabiltzailea.cs
+      path: Modeloak/Erabiltzailea.cs
       branch: main
-      repo: https://github.com/anunez25-spec/GHOSTDOCANDONI.git
+      repo: https://github.com/anunez25-spec/Inbentarioa26.git
     id: Pasahitza
     path: Modeloak/Erabiltzailea.cs
     startLine: 16
@@ -154,9 +154,9 @@ items:
   type: Property
   source:
     remote:
-      path: Downloads/ADB-Erronka3_1/ADB-Erronka3/Modeloak/Erabiltzailea.cs
+      path: Modeloak/Erabiltzailea.cs
       branch: main
-      repo: https://github.com/anunez25-spec/GHOSTDOCANDONI.git
+      repo: https://github.com/anunez25-spec/Inbentarioa26.git
     id: Rola
     path: Modeloak/Erabiltzailea.cs
     startLine: 19
@@ -185,9 +185,9 @@ items:
   type: Property
   source:
     remote:
-      path: Downloads/ADB-Erronka3_1/ADB-Erronka3/Modeloak/Erabiltzailea.cs
+      path: Modeloak/Erabiltzailea.cs
       branch: main
-      repo: https://github.com/anunez25-spec/GHOSTDOCANDONI.git
+      repo: https://github.com/anunez25-spec/Inbentarioa26.git
     id: IdMintegia
     path: Modeloak/Erabiltzailea.cs
     startLine: 22

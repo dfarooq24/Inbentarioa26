@@ -18,9 +18,9 @@ items:
   type: Class
   source:
     remote:
-      path: Downloads/ADB-Erronka3_1/ADB-Erronka3/Modeloak/Ordenagailua.cs
+      path: Modeloak/Ordenagailua.cs
       branch: main
-      repo: https://github.com/anunez25-spec/GHOSTDOCANDONI.git
+      repo: https://github.com/anunez25-spec/Inbentarioa26.git
     id: Ordenagailua
     path: Modeloak/Ordenagailua.cs
     startLine: 7
@@ -68,9 +68,9 @@ items:
   type: Property
   source:
     remote:
-      path: Downloads/ADB-Erronka3_1/ADB-Erronka3/Modeloak/Ordenagailua.cs
+      path: Modeloak/Ordenagailua.cs
       branch: main
-      repo: https://github.com/anunez25-spec/GHOSTDOCANDONI.git
+      repo: https://github.com/anunez25-spec/Inbentarioa26.git
     id: RAM
     path: Modeloak/Ordenagailua.cs
     startLine: 10
@@ -99,9 +99,9 @@ items:
   type: Property
   source:
     remote:
-      path: Downloads/ADB-Erronka3_1/ADB-Erronka3/Modeloak/Ordenagailua.cs
+      path: Modeloak/Ordenagailua.cs
       branch: main
-      repo: https://github.com/anunez25-spec/GHOSTDOCANDONI.git
+      repo: https://github.com/anunez25-spec/Inbentarioa26.git
     id: ROM
     path: Modeloak/Ordenagailua.cs
     startLine: 13
@@ -130,9 +130,9 @@ items:
   type: Property
   source:
     remote:
-      path: Downloads/ADB-Erronka3_1/ADB-Erronka3/Modeloak/Ordenagailua.cs
+      path: Modeloak/Ordenagailua.cs
       branch: main
-      repo: https://github.com/anunez25-spec/GHOSTDOCANDONI.git
+      repo: https://github.com/anunez25-spec/Inbentarioa26.git
     id: CPU
     path: Modeloak/Ordenagailua.cs
     startLine: 16
@@ -161,9 +161,9 @@ items:
   type: Constructor
   source:
     remote:
-      path: Downloads/ADB-Erronka3_1/ADB-Erronka3/Modeloak/Ordenagailua.cs
+      path: Modeloak/Ordenagailua.cs
       branch: main
-      repo: https://github.com/anunez25-spec/GHOSTDOCANDONI.git
+      repo: https://github.com/anunez25-spec/Inbentarioa26.git
     id: .ctor
     path: Modeloak/Ordenagailua.cs
     startLine: 21

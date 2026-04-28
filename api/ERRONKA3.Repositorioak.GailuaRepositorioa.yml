@@ -19,9 +19,9 @@ items:
   type: Class
   source:
     remote:
-      path: Downloads/ADB-Erronka3_1/ADB-Erronka3/Repositorioak/GailuaRepositorioa.cs
+      path: Repositorioak/GailuaRepositorioa.cs
       branch: main
-      repo: https://github.com/anunez25-spec/GHOSTDOCANDONI.git
+      repo: https://github.com/anunez25-spec/Inbentarioa26.git
     id: GailuaRepositorioa
     path: Repositorioak/GailuaRepositorioa.cs
     startLine: 12
@@ -63,9 +63,9 @@ items:
   type: Method
   source:
     remote:
-      path: Downloads/ADB-Erronka3_1/ADB-Erronka3/Repositorioak/GailuaRepositorioa.cs
+      path: Repositorioak/GailuaRepositorioa.cs
       branch: main
-      repo: https://github.com/anunez25-spec/GHOSTDOCANDONI.git
+      repo: https://github.com/anunez25-spec/Inbentarioa26.git
     id: GetAll
     path: Repositorioak/GailuaRepositorioa.cs
     startLine: 21
@@ -94,9 +94,9 @@ items:
   type: Method
   source:
     remote:
-      path: Downloads/ADB-Erronka3_1/ADB-Erronka3/Repositorioak/GailuaRepositorioa.cs
+      path: Repositorioak/GailuaRepositorioa.cs
       branch: main
-      repo: https://github.com/anunez25-spec/GHOSTDOCANDONI.git
+      repo: https://github.com/anunez25-spec/Inbentarioa26.git
     id: GetById
     path: Repositorioak/GailuaRepositorioa.cs
     startLine: 35
@@ -135,9 +135,9 @@ items:
   type: Method
   source:
     remote:
-      path: Downloads/ADB-Erronka3_1/ADB-Erronka3/Repositorioak/GailuaRepositorioa.cs
+      path: Repositorioak/GailuaRepositorioa.cs
       branch: main
-      repo: https://github.com/anunez25-spec/GHOSTDOCANDONI.git
+      repo: https://github.com/anunez25-spec/Inbentarioa26.git
     id: Gehitu
     path: Repositorioak/GailuaRepositorioa.cs
     startLine: 90
@@ -170,9 +170,9 @@ items:
   type: Method
   source:
     remote:
-      path: Downloads/ADB-Erronka3_1/ADB-Erronka3/Repositorioak/GailuaRepositorioa.cs
+      path: Repositorioak/GailuaRepositorioa.cs
       branch: main
-      repo: https://github.com/anunez25-spec/GHOSTDOCANDONI.git
+      repo: https://github.com/anunez25-spec/Inbentarioa26.git
     id: Eguneratu
     path: Repositorioak/GailuaRepositorioa.cs
     startLine: 125
@@ -205,9 +205,9 @@ items:
   type: Method
   source:
     remote:
-      path: Downloads/ADB-Erronka3_1/ADB-Erronka3/Repositorioak/GailuaRepositorioa.cs
+      path: Repositorioak/GailuaRepositorioa.cs
       branch: main
-      repo: https://github.com/anunez25-spec/GHOSTDOCANDONI.git
+      repo: https://github.com/anunez25-spec/Inbentarioa26.git
     id: Ezabatu
     path: Repositorioak/GailuaRepositorioa.cs
     startLine: 159

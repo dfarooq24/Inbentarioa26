@@ -16,9 +16,9 @@ items:
   type: Class
   source:
     remote:
-      path: Downloads/ADB-Erronka3_1/ADB-Erronka3/DBKonexioa.cs
+      path: DBKonexioa.cs
       branch: main
-      repo: https://github.com/anunez25-spec/GHOSTDOCANDONI.git
+      repo: https://github.com/anunez25-spec/Inbentarioa26.git
     id: DBKonexioa
     path: DBKonexioa.cs
     startLine: 8
@@ -56,9 +56,9 @@ items:
   type: Property
   source:
     remote:
-      path: Downloads/ADB-Erronka3_1/ADB-Erronka3/DBKonexioa.cs
+      path: DBKonexioa.cs
       branch: main
-      repo: https://github.com/anunez25-spec/GHOSTDOCANDONI.git
+      repo: https://github.com/anunez25-spec/Inbentarioa26.git
     id: Instancia
     path: DBKonexioa.cs
     startLine: 28
@@ -90,9 +90,9 @@ items:
   type: Method
   source:
     remote:
-      path: Downloads/ADB-Erronka3_1/ADB-Erronka3/DBKonexioa.cs
+      path: DBKonexioa.cs
       branch: main
-      repo: https://github.com/anunez25-spec/GHOSTDOCANDONI.git
+      repo: https://github.com/anunez25-spec/Inbentarioa26.git
     id: GetConnection
     path: DBKonexioa.cs
     startLine: 38

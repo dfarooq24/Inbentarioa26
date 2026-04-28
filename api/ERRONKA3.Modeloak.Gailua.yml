@@ -21,9 +21,9 @@ items:
   type: Class
   source:
     remote:
-      path: Downloads/ADB-Erronka3_1/ADB-Erronka3/Modeloak/Gailua.cs
+      path: Modeloak/Gailua.cs
       branch: main
-      repo: https://github.com/anunez25-spec/GHOSTDOCANDONI.git
+      repo: https://github.com/anunez25-spec/Inbentarioa26.git
     id: Gailua
     path: Modeloak/Gailua.cs
     startLine: 8
@@ -68,9 +68,9 @@ items:
   type: Property
   source:
     remote:
-      path: Downloads/ADB-Erronka3_1/ADB-Erronka3/Modeloak/Gailua.cs
+      path: Modeloak/Gailua.cs
       branch: main
-      repo: https://github.com/anunez25-spec/GHOSTDOCANDONI.git
+      repo: https://github.com/anunez25-spec/Inbentarioa26.git
     id: IdGailu
     path: Modeloak/Gailua.cs
     startLine: 11
@@ -99,9 +99,9 @@ items:
   type: Property
   source:
     remote:
-      path: Downloads/ADB-Erronka3_1/ADB-Erronka3/Modeloak/Gailua.cs
+      path: Modeloak/Gailua.cs
       branch: main
-      repo: https://github.com/anunez25-spec/GHOSTDOCANDONI.git
+      repo: https://github.com/anunez25-spec/Inbentarioa26.git
     id: Marka
     path: Modeloak/Gailua.cs
     startLine: 14
@@ -130,9 +130,9 @@ items:
   type: Property
   source:
     remote:
-      path: Downloads/ADB-Erronka3_1/ADB-Erronka3/Modeloak/Gailua.cs
+      path: Modeloak/Gailua.cs
       branch: main
-      repo: https://github.com/anunez25-spec/GHOSTDOCANDONI.git
+      repo: https://github.com/anunez25-spec/Inbentarioa26.git
     id: Modelo
     path: Modeloak/Gailua.cs
     startLine: 17
@@ -161,9 +161,9 @@ items:
   type: Property
   source:
     remote:
-      path: Downloads/ADB-Erronka3_1/ADB-Erronka3/Modeloak/Gailua.cs
+      path: Modeloak/Gailua.cs
       branch: main
-      repo: https://github.com/anunez25-spec/GHOSTDOCANDONI.git
+      repo: https://github.com/anunez25-spec/Inbentarioa26.git
     id: ErosketaData
     path: Modeloak/Gailua.cs
     startLine: 20
@@ -192,9 +192,9 @@ items:
   type: Property
   source:
     remote:
-      path: Downloads/ADB-Erronka3_1/ADB-Erronka3/Modeloak/Gailua.cs
+      path: Modeloak/Gailua.cs
       branch: main
-      repo: https://github.com/anunez25-spec/GHOSTDOCANDONI.git
+      repo: https://github.com/anunez25-spec/Inbentarioa26.git
     id: Egoera
     path: Modeloak/Gailua.cs
     startLine: 23
@@ -223,9 +223,9 @@ items:
   type: Property
   source:
     remote:
-      path: Downloads/ADB-Erronka3_1/ADB-Erronka3/Modeloak/Gailua.cs
+      path: Modeloak/Gailua.cs
       branch: main
-      repo: https://github.com/anunez25-spec/GHOSTDOCANDONI.git
+      repo: https://github.com/anunez25-spec/Inbentarioa26.git
     id: Mota
     path: Modeloak/Gailua.cs
     startLine: 26
@@ -254,9 +254,9 @@ items:
   type: Property
   source:
     remote:
-      path: Downloads/ADB-Erronka3_1/ADB-Erronka3/Modeloak/Gailua.cs
+      path: Modeloak/Gailua.cs
       branch: main
-      repo: https://github.com/anunez25-spec/GHOSTDOCANDONI.git
+      repo: https://github.com/anunez25-spec/Inbentarioa26.git
     id: IdMintegia
     path: Modeloak/Gailua.cs
     startLine: 29

@@ -18,9 +18,9 @@ items:
   type: Class
   source:
     remote:
-      path: Downloads/ADB-Erronka3_1/ADB-Erronka3/Repositorioak/ErabiltzaileaRepositorioa.cs
+      path: Repositorioak/ErabiltzaileaRepositorioa.cs
       branch: main
-      repo: https://github.com/anunez25-spec/GHOSTDOCANDONI.git
+      repo: https://github.com/anunez25-spec/Inbentarioa26.git
     id: ErabiltzaileaRepositorioa
     path: Repositorioak/ErabiltzaileaRepositorioa.cs
     startLine: 10
@@ -58,9 +58,9 @@ items:
   type: Method
   source:
     remote:
-      path: Downloads/ADB-Erronka3_1/ADB-Erronka3/Repositorioak/ErabiltzaileaRepositorioa.cs
+      path: Repositorioak/ErabiltzaileaRepositorioa.cs
       branch: main
-      repo: https://github.com/anunez25-spec/GHOSTDOCANDONI.git
+      repo: https://github.com/anunez25-spec/Inbentarioa26.git
     id: Autentifikatu
     path: Repositorioak/ErabiltzaileaRepositorioa.cs
     startLine: 21
@@ -99,9 +99,9 @@ items:
   type: Method
   source:
     remote:
-      path: Downloads/ADB-Erronka3_1/ADB-Erronka3/Repositorioak/ErabiltzaileaRepositorioa.cs
+      path: Repositorioak/ErabiltzaileaRepositorioa.cs
       branch: main
-      repo: https://github.com/anunez25-spec/GHOSTDOCANDONI.git
+      repo: https://github.com/anunez25-spec/Inbentarioa26.git
     id: GetAll
     path: Repositorioak/ErabiltzaileaRepositorioa.cs
     startLine: 35
@@ -130,9 +130,9 @@ items:
   type: Method
   source:
     remote:
-      path: Downloads/ADB-Erronka3_1/ADB-Erronka3/Repositorioak/ErabiltzaileaRepositorioa.cs
+      path: Repositorioak/ErabiltzaileaRepositorioa.cs
       branch: main
-      repo: https://github.com/anunez25-spec/GHOSTDOCANDONI.git
+      repo: https://github.com/anunez25-spec/Inbentarioa26.git
     id: Gehitu
     path: Repositorioak/ErabiltzaileaRepositorioa.cs
     startLine: 48
@@ -162,9 +162,9 @@ items:
   type: Method
   source:
     remote:
-      path: Downloads/ADB-Erronka3_1/ADB-Erronka3/Repositorioak/ErabiltzaileaRepositorioa.cs
+      path: Repositorioak/ErabiltzaileaRepositorioa.cs
       branch: main
-      repo: https://github.com/anunez25-spec/GHOSTDOCANDONI.git
+      repo: https://github.com/anunez25-spec/Inbentarioa26.git
     id: Ezabatu
     path: Repositorioak/ErabiltzaileaRepositorioa.cs
     startLine: 64

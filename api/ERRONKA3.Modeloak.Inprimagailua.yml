@@ -16,9 +16,9 @@ items:
   type: Class
   source:
     remote:
-      path: Downloads/ADB-Erronka3_1/ADB-Erronka3/Modeloak/Inprimagailua.cs
+      path: Modeloak/Inprimagailua.cs
       branch: main
-      repo: https://github.com/anunez25-spec/GHOSTDOCANDONI.git
+      repo: https://github.com/anunez25-spec/Inbentarioa26.git
     id: Inprimagailua
     path: Modeloak/Inprimagailua.cs
     startLine: 7
@@ -66,9 +66,9 @@ items:
   type: Property
   source:
     remote:
-      path: Downloads/ADB-Erronka3_1/ADB-Erronka3/Modeloak/Inprimagailua.cs
+      path: Modeloak/Inprimagailua.cs
       branch: main
-      repo: https://github.com/anunez25-spec/GHOSTDOCANDONI.git
+      repo: https://github.com/anunez25-spec/Inbentarioa26.git
     id: Kolorea
     path: Modeloak/Inprimagailua.cs
     startLine: 13
@@ -100,9 +100,9 @@ items:
   type: Constructor
   source:
     remote:
-      path: Downloads/ADB-Erronka3_1/ADB-Erronka3/Modeloak/Inprimagailua.cs
+      path: Modeloak/Inprimagailua.cs
       branch: main
-      repo: https://github.com/anunez25-spec/GHOSTDOCANDONI.git
+      repo: https://github.com/anunez25-spec/Inbentarioa26.git
     id: .ctor
     path: Modeloak/Inprimagailua.cs
     startLine: 18

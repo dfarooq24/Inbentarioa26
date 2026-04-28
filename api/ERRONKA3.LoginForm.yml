@@ -16,9 +16,9 @@ items:
   type: Class
   source:
     remote:
-      path: Downloads/ADB-Erronka3_1/ADB-Erronka3/LoginForm.Designer.cs
+      path: LoginForm.Designer.cs
       branch: main
-      repo: https://github.com/anunez25-spec/GHOSTDOCANDONI.git
+      repo: https://github.com/anunez25-spec/Inbentarioa26.git
     id: LoginForm
     path: LoginForm.Designer.cs
     startLine: 2
@@ -600,9 +600,9 @@ items:
   type: Constructor
   source:
     remote:
-      path: Downloads/ADB-Erronka3_1/ADB-Erronka3/LoginForm.cs
+      path: LoginForm.cs
       branch: main
-      repo: https://github.com/anunez25-spec/GHOSTDOCANDONI.git
+      repo: https://github.com/anunez25-spec/Inbentarioa26.git
     id: .ctor
     path: LoginForm.cs
     startLine: 15
@@ -631,9 +631,9 @@ items:
   type: Method
   source:
     remote:
-      path: Downloads/ADB-Erronka3_1/ADB-Erronka3/LoginForm.Designer.cs
+      path: LoginForm.Designer.cs
       branch: main
-      repo: https://github.com/anunez25-spec/GHOSTDOCANDONI.git
+      repo: https://github.com/anunez25-spec/Inbentarioa26.git
     id: Dispose
     path: LoginForm.Designer.cs
     startLine: 5

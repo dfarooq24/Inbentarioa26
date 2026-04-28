@@ -16,9 +16,9 @@ items:
   type: Class
   source:
     remote:
-      path: Downloads/ADB-Erronka3_1/ADB-Erronka3/GailuaEditatuForm.Designer.cs
+      path: GailuaEditatuForm.Designer.cs
       branch: main
-      repo: https://github.com/anunez25-spec/GHOSTDOCANDONI.git
+      repo: https://github.com/anunez25-spec/Inbentarioa26.git
     id: GailuaEditatuForm
     path: GailuaEditatuForm.Designer.cs
     startLine: 2
@@ -602,9 +602,9 @@ items:
   type: Constructor
   source:
     remote:
-      path: Downloads/ADB-Erronka3_1/ADB-Erronka3/GailuaEditatuForm.cs
+      path: GailuaEditatuForm.cs
       branch: main
-      repo: https://github.com/anunez25-spec/GHOSTDOCANDONI.git
+      repo: https://github.com/anunez25-spec/Inbentarioa26.git
     id: .ctor
     path: GailuaEditatuForm.cs
     startLine: 23
@@ -637,9 +637,9 @@ items:
   type: Method
   source:
     remote:
-      path: Downloads/ADB-Erronka3_1/ADB-Erronka3/GailuaEditatuForm.Designer.cs
+      path: GailuaEditatuForm.Designer.cs
       branch: main
-      repo: https://github.com/anunez25-spec/GHOSTDOCANDONI.git
+      repo: https://github.com/anunez25-spec/Inbentarioa26.git
     id: Dispose
     path: GailuaEditatuForm.Designer.cs
     startLine: 5

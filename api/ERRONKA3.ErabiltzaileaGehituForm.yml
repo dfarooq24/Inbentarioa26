@@ -16,9 +16,9 @@ items:
   type: Class
   source:
     remote:
-      path: Downloads/ADB-Erronka3_1/ADB-Erronka3/ErabiltzaileaGehituForm.Designer.cs
+      path: ErabiltzaileaGehituForm.Designer.cs
       branch: main
-      repo: https://github.com/anunez25-spec/GHOSTDOCANDONI.git
+      repo: https://github.com/anunez25-spec/Inbentarioa26.git
     id: ErabiltzaileaGehituForm
     path: ErabiltzaileaGehituForm.Designer.cs
     startLine: 2
@@ -600,9 +600,9 @@ items:
   type: Constructor
   source:
     remote:
-      path: Downloads/ADB-Erronka3_1/ADB-Erronka3/ErabiltzaileaGehituForm.cs
+      path: ErabiltzaileaGehituForm.cs
       branch: main
-      repo: https://github.com/anunez25-spec/GHOSTDOCANDONI.git
+      repo: https://github.com/anunez25-spec/Inbentarioa26.git
     id: .ctor
     path: ErabiltzaileaGehituForm.cs
     startLine: 16
@@ -631,9 +631,9 @@ items:
   type: Method
   source:
     remote:
-      path: Downloads/ADB-Erronka3_1/ADB-Erronka3/ErabiltzaileaGehituForm.Designer.cs
+      path: ErabiltzaileaGehituForm.Designer.cs
       branch: main
-      repo: https://github.com/anunez25-spec/GHOSTDOCANDONI.git
+      repo: https://github.com/anunez25-spec/Inbentarioa26.git
     id: Dispose
     path: ErabiltzaileaGehituForm.Designer.cs
     startLine: 5

@@ -16,9 +16,9 @@ items:
   type: Class
   source:
     remote:
-      path: Downloads/ADB-Erronka3_1/ADB-Erronka3/MenuNagusia.Designer.cs
+      path: MenuNagusia.Designer.cs
       branch: main
-      repo: https://github.com/anunez25-spec/GHOSTDOCANDONI.git
+      repo: https://github.com/anunez25-spec/Inbentarioa26.git
     id: MenuNagusia
     path: MenuNagusia.Designer.cs
     startLine: 2
@@ -600,9 +600,9 @@ items:
   type: Constructor
   source:
     remote:
-      path: Downloads/ADB-Erronka3_1/ADB-Erronka3/MenuNagusia.cs
+      path: MenuNagusia.cs
       branch: main
-      repo: https://github.com/anunez25-spec/GHOSTDOCANDONI.git
+      repo: https://github.com/anunez25-spec/Inbentarioa26.git
     id: .ctor
     path: MenuNagusia.cs
     startLine: 16
@@ -635,9 +635,9 @@ items:
   type: Method
   source:
     remote:
-      path: Downloads/ADB-Erronka3_1/ADB-Erronka3/MenuNagusia.Designer.cs
+      path: MenuNagusia.Designer.cs
       branch: main
-      repo: https://github.com/anunez25-spec/GHOSTDOCANDONI.git
+      repo: https://github.com/anunez25-spec/Inbentarioa26.git
     id: Dispose
     path: MenuNagusia.Designer.cs
     startLine: 5
