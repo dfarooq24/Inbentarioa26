@@ -2,6 +2,20 @@
 
 ### ERRONKA 3 · 1PAAG3 · Izarraitz LHII · 2025-2026
 
+## ⚠️ GARRANTZITSUA — MySQL zerbitzariaren IP helbidea
+
+Programa exekutatu aurretik, **MySQL zerbitzariaren IP helbidea aldatu behar duzu** `DBKonexioa.cs` fitxategian, zerbitzariaren IPa **ez baita estatikoa** eta aldatu egiten baita.
+
+### Urratsak:
+
+1. Ireki `DBKonexioa.cs` fitxategia.
+2. Bilatu lerro hau:
+   ```csharp
+   private readonly string _cs = "server=192.168.80.24;port=3306;database=inbentarioa26;uid=root;pwd=root;SslMode=None;";
+   ```
+3. Aldatu `192.168.80.24` zenbakia gelako MySQL zerbitzariaren uneko IP helbidearekin.
+4. Gorde fitxategia (`Ctrl + S`) eta birkonpilatu proiektua (`F6`).
+5. Exekutatu programa (`F5`).
 ---
 
 ## 📝 Proiektuaren deskribapena
